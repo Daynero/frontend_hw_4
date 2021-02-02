@@ -47,7 +47,22 @@
   padding: 94px 15px 94px 15px;
 }
 
-.advantages__list:not(:last-child) {
+.advantages__decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  width: 270px;
+  height: 120px;
+}
+
+.advantages__icon {
+  width: 70px;
+  height: 70px;
+}
+
+.advantages__item:not(:last-child) {
   margin-right: 30px;
 }
 
